@@ -1,0 +1,23 @@
+{
+  "chmod": "0755",
+  "directories": [
+    "src"
+  ],
+  "finder": [
+    {
+      "name": "*.php",
+      "exclude": [
+        "Tests",
+        "tests",
+        "build"
+      ],
+      "in": [
+        "vendor",
+        "bin"
+      ]
+    }
+  ],
+  "main": "bin/profiler",
+  "output": "build/profiler.phar",
+  "stub": true
+}
