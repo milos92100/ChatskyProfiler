@@ -9,7 +9,9 @@
       "exclude": [
         "Tests",
         "tests",
-        "build"
+        "build",
+        "dev",
+        "sandbox"
       ],
       "in": [
         "vendor",
